@@ -1,3 +1,6 @@
+
+/* ============ MAIN-STYLE============ */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -16,6 +19,20 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: #404bbf;
+}
+
+a:focus {
+    color: #404bbf;
 }
 
 img {
@@ -32,10 +49,7 @@ img {
     padding-right: 15px;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-}
+
 
 .section {
     padding-top: 120px;
@@ -43,6 +57,16 @@ img {
 }
 
 /* ==========STYLE-HEADER========== */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .web-logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -51,7 +75,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-right: 76px;
+    margin-right: 76px;
+    
 }
 
 .studio-logo {
@@ -67,15 +92,25 @@ img {
 .main-nav {
     display: flex;
     align-items: center;
+
+    
+}
+
+.list-navigation {
+    gap: 40px;
+    display: flex;
 }
 
 .item-navigation {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -85,22 +120,15 @@ img {
 }
 
 .contacts {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.main-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-
-.list-navigation {
-    gap: 40px;
-    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-information {
@@ -108,13 +136,12 @@ img {
     display: flex;
 }
 
-.list-navigation {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 /* ==========STYLE-HERO========== */
+
+
 .hero {
+    max-width: 1440px;
     background-color: #2e2f42;
     padding: 188px 0 188px;
     margin: 0 auto;

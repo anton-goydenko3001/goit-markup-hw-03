@@ -240,7 +240,6 @@ button:focus {
     text-transform: capitalize;
 }
 
-
 .list-team {
     display: flex;
     column-gap: 24px;

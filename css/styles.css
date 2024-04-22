@@ -76,7 +76,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    
 }
 
 .studio-logo {
@@ -92,8 +91,6 @@ img {
 .main-nav {
     display: flex;
     align-items: center;
-
-    
 }
 
 .list-navigation {
@@ -210,7 +207,7 @@ button:focus {
 
 .our-feature {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .main-feature {
